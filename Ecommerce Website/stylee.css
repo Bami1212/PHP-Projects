@@ -1,0 +1,305 @@
+.page-single {
+    padding: 75px 0;
+    background-color: #f6f6f7;
+  }
+ 
+  .movie_single .movie-item-style-2 img,
+.userfav_list .movie-item-style-2 img {
+  width: 30%;
+}
+
+.movie-item-style-2 {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.movie-item-style-2 img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 30px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  width: 140px;
+  height: 200px;
+}
+.movie-item-style-2 .mv-item-infor h6 {
+  margin-bottom: 10px;
+}
+.movie-item-style-2 .mv-item-infor h6 a {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.movie-item-style-2 .mv-item-infor p{
+  color: #f83d36;
+}
+.movie-item-style-2 .mv-item-infor .describe {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #111111;
+  margin-bottom: 25px;
+  color: #111111;
+}
+.movie-item-style-2 .mv-item-infor .run-time span {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.movie-item-style-2 .mv-item-infor .rate {
+  font-size: 12px;
+}
+.movie-item-style-2 .mv-item-infor .rate i {
+  color: #111111;
+  font-size: 22px;
+  margin-right: 5px;
+}
+.movie-item-style-2 .mv-item-infor .rate span {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 400;
+}
+.movie-item-style-2 .mv-item-infor p {
+  margin-bottom: 0;
+}
+.movie-item-style-2 .mv-item-infor p a {
+  color: #111111;
+}
+
+.topbar-filter {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  border-top: 1px solid #111111;
+  border-bottom: 1px solid #111111;
+}
+.topbar-filter p {
+  padding-right: 200px;
+  margin-bottom: 0;
+}
+.sidebar {
+  margin-left: 60px;
+}
+.sidebar .sb-title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #405266;
+}
+.movie-item-style-2 .mv-item-infor .location,.movie-item-style-2 .mv-item-infor .phonenumber {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #111111;
+  margin-bottom: 20px;
+}
+.movie-item-style-2 .mv-item-infor .link {
+ 
+  margin-bottom: 20px;
+}
+.shophere {
+  
+  border-radius: 18px;
+  color: #fff;
+  background: linear-gradient(to right, rgb(54, 57, 233), #E040FB);
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+
+}
+.shophere:hover{
+  background:rgb(238, 225, 123);
+  color: #111111;
+}
+
+
+.product-overlay h2 {
+  color: rgb(12, 12, 12);
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.product-overlay {
+  background: rgba(252, 248, 243, 0.8);
+  top: 0;
+  display: none;
+  height: 0;
+  position: absolute;
+  -webkit-transition: height 500ms ease 0s;
+  transition: height 500ms ease 0s;
+  width: 100%;
+  display: block;
+  opacity: 0;
+}
+.product__item:hover .product-overlay {
+  display: block;
+  height: 100%;
+  opacity: 1;
+}
+.product-overlay .overlay-content {
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.product-overlay p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+}
+@media only screen and (max-width: 767px) {
+
+  .property__gallery{
+
+    width: 70%;
+    padding-left: 50px;
+  }
+  .product__item__pic {
+    height: 50%;
+  }
+ 
+}
+
+#scrollUp {
+  background-color: #FE980F;
+  border-radius: 0;
+  bottom: 60px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+  right: 60px;
+  text-align: center;
+  width: 40px; 
+}
+
+@media only screen and (max-width: 767px) {
+    #scrollUp {
+      bottom: 30px;
+      right: 30px;
+     } 
+    }
+
+.header__menu li  {
+  font-size: 15px;
+	text-transform: uppercase;
+	color: #111111;
+	font-weight: 500;
+	cursor: pointer;
+}
+.header__menu ul li .dropdown li a:hover{
+	
+  background: #f6f6f7;
+  color: #111111;
+}
+
+
+  .pagination {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .pagination li {
+    margin-right: 5px;
+  }
+  .pagination li a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #030304;
+    font-weight: 300;
+    text-transform: none;
+    height: 33px;
+    width: 33px;
+    border: 1px solid #405266;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pagination li a:hover {
+    color: #fffffd;
+    background-color: #258dbd;
+    border: 1px solid #0e0e0e;
+  }
+ .pagination span{
+   margin-right: 5px;
+ }
+  .topsearch{
+    padding-bottom: 10px;
+  }
+ .topsearch form{
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid #ca1515;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+ .topsearch input {
+  height: 46px;
+  border: none;
+  background-color: #f6f7f8;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  padding-left: 5px;
+  color: #272424;
+  font-weight: 300;
+  text-transform: none;
+  
+}
+.topsearch .itemname{
+  width: 300px;
+}
+
+.topsearch input::-webkit-input-placeholder {
+  color: #272525;
+}
+.topsearch input {
+  background: url('../images/topsearch.png') no-repeat right 20px center;
+}
+.topsearch .btn_submit{
+  background-color: #1d1c1c;
+  color: #f6f6f7;
+}
+.topsearch .btn_submit:hover{
+  background-color: #fcfcfc;
+  color: #202022;
+}
+@media only screen and (max-width: 767px) {
+
+  .topsearch{
+    padding-left: 10px;
+  }
+ 
+}
